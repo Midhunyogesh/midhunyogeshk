@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f3f6;
+        }
+        .navbar {
+            background-color: #2874f0;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product-card {
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 10px;
+        }
+        .product-card h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #757575;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .product-card .price {
+            color: #2874f0;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .footer {
+            background-color: #2874f0;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Flipkart</h1>
+    </div>
+
+    <div class="product-list">
+        <div class="product-card">
+            <img src="redmi.jpg" alt="Product 1">
+            <h3>mobile</h3>
+            <p>A smartphone is a cellular telephone with an integrated computer and other features not originally associated with telephones, such as an operating system (OS), web browsing and the ability to run software applications. Smartphones are used by consumers and as part of a person's business or work.</p>
+            <p class="price">Rs.18900 <del>Rs.20000</del></p>
+        </div>
+        <div class="product-card">
+            <img src="shoe.jpg" alt="Product 2">
+            <h3>Shoe</h3>
+            <p>A shoe is an item of footwear intended to protect and comfort the human foot. Though the human foot can adapt to varied terrains and climate conditions, it is vulnerable, and shoes provide protection. Form was originally tied to function, but over time, shoes also became fashion items.</p>
+            <p class="price">Rs.1400 <del>Rs.1800</del></p>
+        </div>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="pant.jpg" alt="Product 1">
+                <h3>Pant</h3>
+                <p>pants (American and Canadian English) are an item of clothing worn from the waist to anywhere between the knees and the ankles, covering both legs separately (rather than with cloth extending across both legs as in robes, skirts, dresses and kilts).</p>
+                <p class="price">Rs.1800 <deL>Rs.2000</deL></p>
+            </div>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="lap.jpg" alt="Product 1">
+                    <h3>Laptop</h3>
+                    <p>A laptop is a portable computer that can be easily carried around. It's a device designed for personal use and can perform various functions such as browsing the internet, creating documents, playing games, etc. Laptops are generally smaller in size than desktop computers and are battery powered.</p>
+                    <p class="price">Rs.45000 <del>Rs.48000</del></p>
+                </div>
+                <div class="product-list">
+                    <div class="product-card">
+                        <img src="sports.jpg" alt="Product 1">
+                        <h3>Sportswear</h3>
+                        <p>Sportswear or activewear is athletic clothing, including footwear, worn for sports activity or physical exercise. Sport-specific clothing is worn for most sports and physical exercise, for practical, comfort or safety reasons. U.S. Navy sailors exercising in the presence of a fitness instructor..</p>
+                        <p class="price">Rs.1750 <del>Rs.2500</del></p>
+                    </div>
+              
+                    <div class="product-card">
+                        <img src="t shirt.jpg" alt="Product 1">
+                        <h3> T-Shirts</h3>
+                        <p>A T-shirt (also spelled tee shirt, or tee for short) is a style of fabric shirt named after the T shape of its body and sleeves. Traditionally, it has short sleeves and a round neckline, known as a crew neck, which lacks a collar.</p>
+                        <p class="price">Rs.900 <del>Rs.1200</del></p>
+                    </div>
+        
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Flipkart. All rights reserved.</p>
+    </div>
+</body>
+</html>
